@@ -5,7 +5,6 @@ let tripleDots = ["پ", "چ", "ژ", "ش", "ث"];
 let exceptional = ["ی"];
 // a function to convert numbers to persian
 const e2p = (s) => s.toString().replace(/\d/g, (d) => "۰۱۲۳۴۵۶۷۸۹"[d]);
-
 // run the function on user type
 document.querySelector("#field").addEventListener("input", function () {
   let dotCounts = 0;
@@ -31,7 +30,6 @@ document.querySelector("#field").addEventListener("input", function () {
         }
       }
     }
-    console.log(dotCounts);
   }
   // calling the function
   counter();

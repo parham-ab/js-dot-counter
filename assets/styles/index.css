@@ -34,3 +34,36 @@ input {
   border-radius: 9px;
   background-color: #d9d9d9;
 }
+#countNum {
+  background-color: #ffb700;
+  padding: 7px;
+  border-radius: 7px;
+  font-size: 19px;
+}
+/* container */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 90vh;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background: #f1d585;
+  padding: 12px;
+  border-radius: 15px;
+}
+.form-container span {
+  margin: 30px auto 0;
+  width: fit-content;
+}
+/* responsive stuff */
+@media only screen and (max-width: 580px) {
+  .container {
+    flex-direction: column;
+  }
+  .lottie-animation {
+    margin-top: 50px;
+  }
+}

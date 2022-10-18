@@ -13,17 +13,24 @@
     <title>JS Dot Counter 👻</title>
   </head>
   <body>
-    <input type="text" placeholder="لطفا متنی را وارد کنید..." id="field" />
-    <span id="countNum"></span>
-    <!-- lottie animation -->
-    <lottie-player
-      class="lottie-animation"
-      src="https://assets5.lottiefiles.com/packages/lf20_xmcvofeh.json"
-      background="transparent"
-      speed="1"
-      loop
-      autoplay
-    ></lottie-player>
+    <div class="container">
+      <!-- input & counter -->
+      <div class="form-container">
+        <input type="text" placeholder="لطفا متنی را وارد کنید..." id="field" />
+        <span id="countNum">۰</span>
+      </div>
+      <!-- lottie animation -->
+      <div>
+        <lottie-player
+          class="lottie-animation"
+          src="https://assets5.lottiefiles.com/packages/lf20_xmcvofeh.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+        ></lottie-player>
+      </div>
+    </div>
     <!-- scripts -->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="script.js"></script>
