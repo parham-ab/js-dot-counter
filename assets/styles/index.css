@@ -29,4 +29,8 @@ body {
 /* input */
 input {
   padding: 5px;
+  font-size: 17px;
+  border: none;
+  border-radius: 9px;
+  background-color: #d9d9d9;
 }
