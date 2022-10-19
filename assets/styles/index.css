@@ -8,6 +8,20 @@
   text-decoration: none;
   list-style-type: none;
   outline: transparent;
+  font-family: "iransans", "iransans2", "vazir";
+}
+/* fonts */
+@font-face {
+  font-family: "iransans";
+  src: url(/assets/fonts/IRANSansWeb.woff);
+}
+@font-face {
+  font-family: "iransans2";
+  src: url(/assets/fonts/IRANSansWeb.woff2);
+}
+@font-face {
+  font-family: "vazir";
+  src: url(/fonts/vazir.woff);
 }
 body {
   background: #457fca; /* fallback for old browsers */
