@@ -24,21 +24,16 @@
   src: url(/fonts/vazir.woff);
 }
 body {
-  background: #457fca; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #5691c8,
-    #457fca
-  ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
-    #5691c8,
-    #457fca
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 10%,
+    rgba(0, 212, 255, 1) 90%
+  );
 }
 /* lottie animation */
 .lottie-animation {
-  width: 300px;
+  width: 400px;
 }
 /* input */
 input {
@@ -64,7 +59,7 @@ input {
 .form-container {
   display: flex;
   flex-direction: column;
-  background: #f1d585;
+  background: #31313166;
   padding: 12px;
   border-radius: 15px;
 }
@@ -73,11 +68,17 @@ input {
   width: fit-content;
 }
 /* responsive stuff */
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 768px) {
+  .lottie-animation {
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 600px) {
   .container {
     flex-direction: column;
   }
   .lottie-animation {
     margin-top: 50px;
+    width: 300px;
   }
 }
